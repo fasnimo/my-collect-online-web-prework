@@ -1,6 +1,6 @@
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(array)
+def my_collect(collection)
   i = 0 
   empty_array = []
   while i < array.length
@@ -9,6 +9,6 @@ def my_collect(array)
 end
 empty_array
 end
-my_collect(array) {|name|
+my_collect(collection) {|name|
   name.split(" ").upcase}
 
