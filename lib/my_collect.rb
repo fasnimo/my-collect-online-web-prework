@@ -3,7 +3,7 @@ collection = ['ruby', 'javascript', 'python', 'objective-c']
 def my_collect(collection)
   i = 0 
   empty_array = []
-  while i < array.length
+  while i < collection.length
   empty_array.push(yield collection[i])
   i += 1
 end
