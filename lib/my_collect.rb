@@ -7,6 +7,7 @@ def my_collect(array)
   empty_array.push (yield array[i])
   i += 1
 end
+end
 my_collect(array) {|name|
   name.split(" ").first}
 end 
