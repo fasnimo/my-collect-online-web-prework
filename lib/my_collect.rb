@@ -11,5 +11,4 @@ empty_array
 end
 my_collect(array) {|name|
   name.split(" ").first}
-end 
 
