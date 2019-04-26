@@ -1,14 +1,14 @@
-collection = ['ruby', 'javascript', 'python', 'objective-c']
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(collection)
+def my_collect(array)
   i = 0 
   empty_array = []
-  while i < collection.length
-  empty_array.push(yield collection[i])
+  while i < array.length
+  empty_array.push(yield array[i])
   i += 1
 end
 empty_array
 end
-my_collect(collection) {|name|
-  name.split(" ").upcase}
+my_collect(array) {|name|
+  name.split(" ").first}
 
